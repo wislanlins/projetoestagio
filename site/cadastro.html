@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Cadastre-se</title>
+  </head>
+  <body >
+        <form action="cadastro.php" method="POST">
+          <h1>Registrar</h1>
+          <div class="row form-group">
+          <input class="form-control col-6" type="text" placeholder="usuário" name="user">
+          <input class="form-control col-6" type="text" placeholder="e-mail" name="email">
+          <input class="form-control col-6" type="text" placeholder="nome" name="nome">
+          <input class="form-control col-6" type="text" placeholder="cpf" name = "cpf">
+          <input class="form-control col-6" type="text" placeholder="endereco" name="endereco">
+          <input class="form-control col-6" type="text" placeholder="telefone" name="telefone" name="">>
+          <label>Sexo:</label>
+          <input name="sexo" type="radio" value="m">Masculino
+          <input name="sexo" type="radio" value="f">Feminino
+          <input style="margin-left: 450px;" class="form-control col-6" type="date" placeholder="dt_nasc" name ="dt_nasc">
+          <input class="form-control col-6" type="password" placeholder="senha" name="senha">
+          </div>
+          <div style="margin-left: 450px;">
+          <input type="reset" class="btn btn-black" value="Limpar">
+          <button type="submit" class="btn btn-black"  style="color:white;">Registrar</button>
+          <a href="login.html"><button type="button" class="btn btn-black"  style="color:white;">Voltar</button></a>
+          </div>
+    </form>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
